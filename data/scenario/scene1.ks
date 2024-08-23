@@ -16,6 +16,14 @@
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="game_lab2.png"  ]
+[iscript]
+    // GA4にイベントを送信
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event': 'button_click',
+        'button_name': 'test1'
+    });
+[endscript]
 [tb_start_text mode=1 ]
 それは、世界が今どうなっているかをすべて見通すことができ、[p]
 また世界が未来にどうなるのかもすべて見通すことができるのです。[p]
@@ -83,14 +91,7 @@
 [endscript]
 
 [button target=*choice1_1 enterimg=button2_no.png clickimg=button1_no.png x=496 y=259 graphic=button1_no.png]
-[iscript]
-    // GA4にイベントを送信
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({
-        'event': 'button_click',
-        'button_name': 'choice1_1_no'
-    });
-[endscript]
+
 [s]
 [_tb_end_tyrano_code]
 
@@ -106,14 +107,7 @@
 [bg  time="1000"  method="crossfade"  storage="game_question4.1.png"  ]
 [tb_start_tyrano_code]
 [button target=*choice1_2 enterimg=button2_yes.png clickimg=button1_yes.png x=94 y=271 graphic=button1_yes.png]
-[iscript]
-    // GA4にイベントを送信
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({
-        'event': 'button_click',
-        'button_name': 'choice1_2'
-    });
-[endscript]
+
 
 [button target=*choice1_2 enterimg=button2_no.png clickimg=button1_no.png x=496 y=259 graphic=button1_no.png]
 [iscript]
@@ -150,14 +144,7 @@
 [endscript]
 
 [button target=*choice1_3 enterimg=button2_no.png clickimg=button1_no.png x=496 y=259 graphic=button1_no.png]
-[iscript]
-    // GA4にイベントを送信
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({
-        'event': 'button_click',
-        'button_name': 'choice1_3_no'
-    });
-[endscript]
+
 [s]
 [_tb_end_tyrano_code]
 
