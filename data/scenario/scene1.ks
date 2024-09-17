@@ -157,5 +157,11 @@
 [bg  time="200"  method="crossfade"  storage="game_question7.5.png"  ]
 [bg  time="500"  method="crossfade"  storage="game_question7.5.5.png"  ]
 [l  ]
-[jump  storage="scene2.ks"  target="*start2"  ]
+[bg  time="1000"  method="crossfade"  storage="game_chapter.png"  ]
+[bg  time="1300"  method="crossfade"  storage="game4_end1.png"  ]
+[bg  time="1000"  method="crossfade"  storage="game_chapter.png"  ]
 [s  ]
+
+
+
+
