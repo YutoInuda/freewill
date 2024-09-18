@@ -17,7 +17,6 @@
 [s  ]
 *start
 
-[button  storage="title_screen.ks"  target="*start"  graphic="button_title1.png"  width="350"  height="103"  x="575"  y="396"  _clickable_img=""  ]
 [cm  ]
 [tb_keyconfig  flag="1"  ]
 [jump  storage="scene1.ks"  target=""  ]
